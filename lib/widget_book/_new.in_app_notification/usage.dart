@@ -40,7 +40,5 @@ class _UsageState extends State<Usage> {
 }
 
 main() async {
-  MyAppHome = Usage();
-
-  return await buildApp();
+  return await buildApp(home: Usage());
 }

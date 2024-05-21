@@ -15,6 +15,7 @@ class _NewViewState extends State<NewView> {
     return Container(
       height: 100,
       width: 100,
+      color: Colors.blueAccent,
       child: Text("Hello World!").center(),
     );
   }
