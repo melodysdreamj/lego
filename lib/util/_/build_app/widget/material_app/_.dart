@@ -20,7 +20,7 @@ Widget Function() MaterialAppBuilder(BuildContext context) {
         themeMode: MaterialAppParams.themeMode ?? ThemeMode.system,
         debugShowCheckedModeBanner: false,
         builder: (context, child) {
-          rreturn materialAppInsideBuilder(context, child);
+          return materialAppInsideBuilder(context, child);
         },
         navigatorObservers: MaterialAppParams.navigatorObservers ?? [],
         home: MyAppHome ?? InitView(),
