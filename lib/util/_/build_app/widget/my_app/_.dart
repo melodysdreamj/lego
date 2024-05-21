@@ -3,8 +3,10 @@ import '../../../../../main.dart';
 import '../../function/before_material_app/_.dart';
 import '../material_app/_.dart';
 
+
 Widget Function() buildMyApp(BuildContext context) {
   Widget Function() materialAppBuilder = MaterialAppBuilder(context);
+
 
   return () => materialAppBuilder();
 }
@@ -19,3 +21,5 @@ class MyApp extends StatelessWidget {
     return buildMyApp(context)();
   }
 }
+
+

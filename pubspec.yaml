@@ -18,11 +18,13 @@ dependencies:
   modal_bottom_sheet: #@add
   keyboard_attachable: #@add
   flutter_zoom_drawer: #@add
+  flutter_screenutil:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints:
+  screenutil_lego: #@add
 
 flutter:
   uses-material-design: true
