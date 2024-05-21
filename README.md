@@ -14,3 +14,4 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | Package                    | Version                                                                                           |
 |----------------------------|---------------------------------------------------------------------------------------------------|
 | bot_toast_lego             | [![bot_toast_lego](https://img.shields.io/pub/v/bot_toast_lego.svg)](https://pub.dev/packages/bot_toast_lego)             |
+| screenutil_lego             | [![screenutil_lego](https://img.shields.io/pub/v/screenutil_lego.svg)](https://pub.dev/packages/screenutil_lego)             |
