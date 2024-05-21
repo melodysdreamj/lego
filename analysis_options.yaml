@@ -1,0 +1,28 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    prefer_relative_imports: error
+    unused_element: ignore
+    unused_catch_clause: ignore
+    unused_import: ignore
+    unnecessary_import: ignore
+    dead_null_aware_expression: ignore
+
+linter:
+  rules:
+    prefer_relative_imports: true
+    avoid_print: false
+    prefer_const_constructors_in_immutables: false
+    avoid_relative_lib_imports: false
+    constant_identifier_names: false
+    file_names: false
+    prefer_function_declarations_over_variables: false
+    prefer_const_constructors: false # When releasing it later, uncheck this option to process everything at once.
+    prefer_const_literals_to_create_immutables: false # When releasing it later, uncheck this option to process everything at once.
+    sized_box_for_whitespace: false
+    #    unnecessary_import: false
+    non_constant_identifier_names: false
+    library_private_types_in_public_api: false
+    no_leading_underscores_for_local_identifiers: false
+    unused_element: false
