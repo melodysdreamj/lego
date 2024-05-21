@@ -11,7 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_screenutil: #@add
   flutter_svg: #@add
   gap: #@add
   june_flow_util:
