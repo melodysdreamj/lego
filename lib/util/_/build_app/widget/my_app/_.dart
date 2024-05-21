@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../../../main.dart';
-import '../../ready_functions/before_material_app/_.dart';
-import '../build_material_app/_.dart';
+import '../../function/before_material_app/_.dart';
+import '../material_app/_.dart';
 
 Widget Function() buildMyApp(BuildContext context) {
   Widget Function() materialAppBuilder = MaterialAppBuilder(context);
