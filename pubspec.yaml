@@ -29,4 +29,6 @@ dev_dependencies:
   bot_toast_lego: #@add
 
 flutter:
+  assets:
+    - assets/lego/_new/
   uses-material-design: true
