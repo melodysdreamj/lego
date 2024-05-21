@@ -11,7 +11,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_screenutil: #@add
+  flutter_svg: #@add
+  gap: #@add
   june_flow_util:
+  styled_widget: #@add
+  modal_bottom_sheet: #@add
+  keyboard_attachable: #@add
+  flutter_zoom_drawer: #@add
 
 dev_dependencies:
   flutter_test:

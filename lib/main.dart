@@ -7,6 +7,11 @@ export 'util/_/build_app/widget/run_app/_.dart';
 export 'package:june_flow_util/june_flow_util.dart';
 import 'package:june_flow_util/june_flow_util.dart';
 
+export 'package:styled_widget/styled_widget.dart'; //@add
+export 'package:gap/gap.dart'; //@add
+export 'package:flutter_svg/svg.dart'; //@add
+export 'package:flutter_screenutil/flutter_screenutil.dart';
+
 main() {
   return buildApp();
 }
