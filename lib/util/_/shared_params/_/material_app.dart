@@ -9,7 +9,7 @@ class MaterialAppParams {
   static ThemeData? darkTheme;
   static ThemeData? lightTheme;
   static ThemeMode? themeMode;
-  static String? appName;
+  static String appName = 'June';
   static BackButtonDispatcher? backButtonDispatcher;
   static List<NavigatorObserver>? navigatorObservers;
 }
