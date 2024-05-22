@@ -32,3 +32,6 @@ flutter:
   assets:
     - assets/lego/_new/
   uses-material-design: true
+
+topics:
+  - lego
