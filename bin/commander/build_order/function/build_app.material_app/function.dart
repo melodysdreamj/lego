@@ -96,7 +96,7 @@ Widget Function() MaterialAppBuilder(BuildContext context) {
         localizationsDelegates: MaterialAppParams.localizationsDelegates,
         supportedLocales: MaterialAppParams.supportedLocales ?? const <Locale>[Locale('en', 'US')],
         locale: MaterialAppParams.locale,
-        title: MaterialAppParams.appName ?? 'June',
+        title: MaterialAppParams.appName,
         theme: MaterialAppParams.lightTheme,
         darkTheme: MaterialAppParams.darkTheme,
         themeMode: MaterialAppParams.themeMode ?? ThemeMode.system,

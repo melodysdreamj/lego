@@ -56,11 +56,6 @@ createApp() async {
     await replaceStringInFiles(
         result.Name, 'june.lee.lego', result.PackageName);
     await removeFile(path.join(result.Name, 'LICENSE'));
-    await replaceStringInFile(
-        path.join('lib', 'util', '_', 'build_app', 'widget', 'material_app',
-            '_.dart'),
-        "title: MaterialAppParams.appName ?? 'June',",
-        "title: MaterialAppParams.appName ?? '${result.Name}',");
     // } else if (result.Type == ProjectTypeEnum.JuneViewProject) {
     //   await replaceStringInFiles(result.Name, 'june.lee.lego', result.PackageName);
     //   await removeFile('${result.Name}/LICENSE');
@@ -82,12 +77,6 @@ createApp() async {
 
     await replaceStringInFile(path.join(result.Name, 'pubspec.yaml'),
         'assets/lego/_new/', 'assets/lego/${result.Name}/');
-
-    await replaceStringInFile(
-        path.join('lib', 'util', '_', 'build_app', 'widget', 'material_app',
-            '_.dart'),
-        "title: MaterialAppParams.appName ?? 'June',",
-        "title: MaterialAppParams.appName ?? '${result.Name}',");
 
     await renameNewFolders(
         path.join(result.Name, 'lib', 'widget_book'), result.Name,
