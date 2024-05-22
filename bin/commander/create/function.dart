@@ -21,13 +21,18 @@ createApp() async {
 
   bool successClone = false;
   if (result.Type == ProjectTypeEnum.Skeleton) {
-    successClone =
-        await cloneAndRemoveGit('https://github.com/melodysdreamj/lego.git', 'skeleton_project', result.Name);
+    successClone = await cloneAndRemoveGit(
+        'https://github.com/melodysdreamj/lego.git',
+        'skeleton_project',
+        result.Name);
     // } else if (result.Type == ProjectTypeEnum.JuneViewProject) {
     //   successClone =
     //       await cloneAndRemoveGit('https://github.com/melodysdreamj/lego.git', 'starter_project', result.Name);
   } else if (result.Type == ProjectTypeEnum.LegoTemplate) {
-    successClone = await cloneAndRemoveGit('https://github.com/melodysdreamj/lego.git', 'lego_template', result.Name);
+    successClone = await cloneAndRemoveGit(
+        'https://github.com/melodysdreamj/lego.git',
+        'lego_template',
+        result.Name);
   }
   // else if (result.Type == ProjectTypeEnum.Skeleton) {
   //   successClone =
@@ -48,8 +53,14 @@ createApp() async {
   await changeWindowsAppName(result.Name, result.Name);
 
   if (result.Type == ProjectTypeEnum.Skeleton) {
-    await replaceStringInFiles(result.Name, 'june.lee.lego', result.PackageName);
-    await removeFile('${result.Name}/LICENSE');
+    await replaceStringInFiles(
+        result.Name, 'june.lee.lego', result.PackageName);
+    await removeFile(path.join(result.Name, 'LICENSE'));
+    await replaceStringInFile(
+        path.join('lib', 'util', '_', 'build_app', 'widget', 'material_app',
+            '_.dart'),
+        "title: MaterialAppParams.appName ?? 'June',",
+        "title: MaterialAppParams.appName ?? '${result.Name}',");
     // } else if (result.Type == ProjectTypeEnum.JuneViewProject) {
     //   await replaceStringInFiles(result.Name, 'june.lee.lego', result.PackageName);
     //   await removeFile('${result.Name}/LICENSE');
@@ -66,40 +77,45 @@ createApp() async {
         _toPascalCase(result.Name));
 
     await renameNewFolders(path.join(result.Name, 'lib', 'util'), result.Name);
-    await renameNewFolders(path.join(result.Name, 'assets', 'lego'), result.Name);
+    await renameNewFolders(
+        path.join(result.Name, 'assets', 'lego'), result.Name);
+
+    await replaceStringInFile(path.join(result.Name, 'pubspec.yaml'),
+        'assets/lego/_new/', 'assets/lego/${result.Name}/');
 
     await replaceStringInFile(
-        path.join(result.Name, 'pubspec.yaml'), 'assets/lego/_new/', 'assets/lego/${result.Name}/');
+        path.join('lib', 'util', '_', 'build_app', 'widget', 'material_app',
+            '_.dart'),
+        "title: MaterialAppParams.appName ?? 'June',",
+        "title: MaterialAppParams.appName ?? '${result.Name}',");
 
-    await renameNewFolders(path.join(result.Name, 'lib', 'widget_book'), result.Name, checkDirName: [
-      '_new',
-      '_new.dialog',
-      '_new.bottom_sheet',
-      '_new.snackbar',
-      '_new.toast',
-      '_new.in_app_notification',
-    ]);
+    await renameNewFolders(
+        path.join(result.Name, 'lib', 'widget_book'), result.Name,
+        checkDirName: [
+          '_new',
+          '_new.dialog',
+          '_new.bottom_sheet',
+          '_new.snackbar',
+          '_new.toast',
+          '_new.in_app_notification',
+        ]);
 
     // } else if (result.Type == ProjectTypeEnum.ViewTemplate) {
-      await renameNewFolders('${result.Name}/assets/lego', result.Name);
+    await renameNewFolders(
+        path.join(result.Name, 'assets', 'lego'), result.Name);
     //   await reCreateNameNewFolders('${result.Name}/lib/app/_/_/interaction', result.Name);
-      await replaceStringInFile('${result.Name}/README.md', 'NewLego', result.Name);
-      await replaceStringInFile('${result.Name}/pubspec.yaml', 'assets/lego/_new/', 'assets/view/${result.Name}/');
-    //   await renameNewFolders('${result.Name}/lib/widget_book', result.Name, checkDirName: [
-    //     '_new',
-    //     '_new.dialog',
-    //     '_new.bottom_sheet',
-    //     '_new.snackbar',
-    //     '_new.toast',
-    //     '_new.in_app_notification',
-    //   ]);
+    await replaceStringInFile(
+        path.join(result.Name, 'README.md'), 'NewLego', result.Name);
+    await replaceStringInFile(path.join(result.Name, 'pubspec.yaml'),
+        'assets/lego/_new/', 'assets/view/${result.Name}/');
   } else {
     print('Invalid project type: ${result.Type}');
     return;
   }
 
   print('\nCongratulations! Your project has been created successfully!');
-  print('Please change your current directory to the project directory by executing the following command:');
+  print(
+      'Please change your current directory to the project directory by executing the following command:');
   print('>>>> cd ${result.Name} && flutter pub get');
 }
 
@@ -110,7 +126,8 @@ String _toPascalCase(String text) {
   // 모든 단어의 첫 글자를 대문자로 변환
   for (int i = 0; i < words.length; i++) {
     if (words[i].isNotEmpty) {
-      words[i] = words[i][0].toUpperCase() + words[i].substring(1).toLowerCase();
+      words[i] =
+          words[i][0].toUpperCase() + words[i].substring(1).toLowerCase();
     }
   }
 

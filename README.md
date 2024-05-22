@@ -16,5 +16,6 @@ dart pub global activate lego_cli
 
 ```bash
 dart pub global deactivate lego_cli
-dart pub global activate --source git https://github.com/melodysdreamj/lego_cli.git
+dart pub global activate --source git https://github.com/melodysdreamj/lego.git --ref lego_cli
+
 ```
