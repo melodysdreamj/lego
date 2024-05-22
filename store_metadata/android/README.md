@@ -1,1 +1,0 @@
-fastlane-android.json 과 key.jks 가 들어갑니다. 그외에 스크립샷등도 들어갑니다.
