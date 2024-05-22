@@ -11,8 +11,8 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 
 ### Module Package
 
-| Package                    | Version                                                                                           |
-|----------------------------|---------------------------------------------------------------------------------------------------|
-| bot_toast_lego             | [![bot_toast_lego](https://img.shields.io/pub/v/bot_toast_lego.svg)](https://pub.dev/packages/bot_toast_lego)             |
-| screenutil_lego             | [![screenutil_lego](https://img.shields.io/pub/v/screenutil_lego.svg)](https://pub.dev/packages/screenutil_lego)             |
-| device_preview_lego             | [![device_preview_lego](https://img.shields.io/pub/v/device_preview_lego.svg)](https://pub.dev/packages/device_preview_lego)             |
+| Package                    | Type  | Version                                                                                           |
+|----------------------------|-------|---------------------------------------------------------------------------------------------------|
+| bot_toast_lego             | Util  | [![bot_toast_lego](https://img.shields.io/pub/v/bot_toast_lego.svg)](https://pub.dev/packages/bot_toast_lego)             |
+| screenutil_lego            | Util | [![screenutil_lego](https://img.shields.io/pub/v/screenutil_lego.svg)](https://pub.dev/packages/screenutil_lego)             |
+| device_preview_lego        | Util | [![device_preview_lego](https://img.shields.io/pub/v/device_preview_lego.svg)](https://pub.dev/packages/device_preview_lego)             |
