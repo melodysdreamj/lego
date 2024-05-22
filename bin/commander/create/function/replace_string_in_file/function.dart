@@ -1,7 +1,7 @@
 import 'dart:io';
 
 Future<void> replaceStringInFile(String filePath, String originalString, String replacementString) async {
-  print('Replacing in $filePath');
+  // print('Replacing in $filePath');
   final File file = File(filePath);
 
   if (!await file.exists()) {
@@ -15,7 +15,7 @@ Future<void> replaceStringInFile(String filePath, String originalString, String 
     if (fileContent.contains(originalString)) {
       final modifiedContent = fileContent.replaceAll(originalString, replacementString);
       await file.writeAsString(modifiedContent);
-      print('Replaced in $filePath');
+      // print('Replaced in $filePath');
     }
   } on FileSystemException catch (e) {
     print('Skipping $filePath, error reading file: ${e.message}');
