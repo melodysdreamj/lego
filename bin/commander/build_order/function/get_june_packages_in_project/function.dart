@@ -39,9 +39,9 @@ Future<void> getJuneFlowPackagesInProject() async {
 
       // 경로 처리 부분 수정
       module = await checkAssetsHandler(packagePath, module,
-          path.join(packagePath, 'assets', 'module', module.LibraryName));
-      module = await checkAssetsHandler(packagePath, module,
-          path.join(packagePath, 'assets', 'view', module.LibraryName));
+          path.join(packagePath, 'assets', 'lego', module.LibraryName));
+      // module = await checkAssetsHandler(packagePath, module,
+      //     path.join(packagePath, 'assets', 'view', module.LibraryName));
 
       // module = await checkModuleType(packagePath, module);
 
