@@ -57,7 +57,8 @@ createApp() async {
         result.Name, 'june.lee.lego', result.PackageName);
     await removeFile(path.join(result.Name, 'LICENSE'));
     await replaceStringInFile(
-        path.join('lib', 'util', '_', 'shared_params', '_', 'material_app.dart'),
+        path.join(result.Name, 'lib', 'util', '_', 'shared_params', '_',
+            'material_app.dart'),
         "static String appName = 'June';",
         "static String appName = '${result.Name}';");
     // } else if (result.Type == ProjectTypeEnum.JuneViewProject) {
@@ -83,7 +84,8 @@ createApp() async {
         'assets/lego/_new/', 'assets/lego/${result.Name}/');
 
     await replaceStringInFile(
-        path.join('lib', 'util', '_', 'shared_params', '_', 'material_app.dart'),
+        path.join(
+            result.Name,'lib', 'util', '_', 'shared_params', '_', 'material_app.dart'),
         "static String appName = 'June';",
         "static String appName = '${result.Name}';");
 
