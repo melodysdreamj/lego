@@ -1,6 +1,7 @@
 import 'dart:io';
 
 Future<void> replaceStringInFile(String filePath, String originalString, String replacementString) async {
+  print('Replacing in $filePath');
   final File file = File(filePath);
 
   if (!await file.exists()) {
