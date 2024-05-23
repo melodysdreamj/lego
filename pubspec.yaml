@@ -3,7 +3,7 @@ description: "lego is all you need"
 #publish_to: 'none'
 #repository: https://github.com/melodysdreamj/lego
 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
