@@ -18,3 +18,4 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | device_preview_lego        | Util | [![device_preview_lego](https://img.shields.io/pub/v/device_preview_lego.svg)](https://pub.dev/packages/device_preview_lego)             |
 | lego add netflix_main_view_lego | View  | [![netflix_main_view_lego](https://img.shields.io/pub/v/netflix_main_view_lego.svg)](https://pub.dev/packages/netflix_main_view_lego) |
 | june_lego                  | State | [![june_lego](https://img.shields.io/pub/v/june_lego.svg)](https://pub.dev/packages/june_lego)                  |
+| widget_book_lego           | View  | [![widget_book_lego](https://img.shields.io/pub/v/widget_book_lego.svg)](https://pub.dev/packages/widget_book_lego)           |
