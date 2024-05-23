@@ -157,7 +157,7 @@ android:requestLegacyExternalStorage="true"
 ```ruby
 platform :ios, '17.0'
 ```
-2. open xcode and go to project - info tab and change iOS Deployment Target to 17.0
+2. open xcode and go to project - info tab and change iOS Deployment Target to 17.0 and Target - General Minimum Deployments to 17.0
 3. go to terminal and run the following command
 ```shell
 pod install
