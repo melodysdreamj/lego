@@ -54,7 +54,10 @@ android:showWhenLocked="true"
 android:turnScreenOn="true"
 ```
 
-### 7. same file, replace the following code `android:launchMode="singleTop"` to `android:launchMode="singleInstance"`
+### 7. same file, replace the following code 
+```
+`android:launchMode="singleTop"` to `android:launchMode="singleInstance"`
+```
 
 ### 8. add the following option in application tag in `android/app/src/main/AndroidManifest.xml`
 ```xml
