@@ -5,8 +5,11 @@
 description here
 
 ##  Installation
-1. If the lego project doesn't exist, please create new project by following [guide](https://lego.junestory.com/).
-2. open terminal in the lego project root directory, enter the following command.
+1. open terminal in the lego project root directory, enter the following command for install cli.
+```bash
+flutter pub global activate lego_cli
+```
+2. in terminal, enter the following command for add lego to project.
 ```bash
 lego add NewLego
 ```
