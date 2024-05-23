@@ -20,10 +20,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | june_lego                  | State | [![june_lego](https://img.shields.io/pub/v/june_lego.svg)](https://pub.dev/packages/june_lego)                  |
 | widget_book_view_lego           | View  | [![widget_book_view_lego](https://img.shields.io/pub/v/widget_book_view_lego.svg)](https://pub.dev/packages/widget_book_view_lego)           |
 | theme_config_lego          | Util  | [![theme_config_lego](https://img.shields.io/pub/v/theme_config_lego.svg)](https://pub.dev/packages/theme_config_lego)          |
-
-
-
-
+| chrome_style_browser_lego  | View  | [![chrome_style_browser_lego](https://img.shields.io/pub/v/chrome_style_browser_lego.svg)](https://pub.dev/packages/chrome_style_browser_lego)  |
 
 
 
