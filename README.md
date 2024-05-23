@@ -22,7 +22,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | theme_config_lego          | Util  | [![theme_config_lego](https://img.shields.io/pub/v/theme_config_lego.svg)](https://pub.dev/packages/theme_config_lego)          |
 | chrome_style_browser_lego  | View  | [![chrome_style_browser_lego](https://img.shields.io/pub/v/chrome_style_browser_lego.svg)](https://pub.dev/packages/chrome_style_browser_lego)  |
 | toast_view_lego            | View  | [![toast_view_lego](https://img.shields.io/pub/v/toast_view_lego.svg)](https://pub.dev/packages/toast_view_lego)            |
-
+| widget_binding_lego        | Util  | [![widget_binding_lego](https://img.shields.io/pub/v/widget_binding_lego.svg)](https://pub.dev/packages/widget_binding_lego)        |
 
 
 
