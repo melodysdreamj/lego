@@ -24,4 +24,8 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | toast_view_lego            | View          | [![toast_view_lego](https://img.shields.io/pub/v/toast_view_lego.svg)](https://pub.dev/packages/toast_view_lego)            |
 | widget_binding_lego        | Util          | [![widget_binding_lego](https://img.shields.io/pub/v/widget_binding_lego.svg)](https://pub.dev/packages/widget_binding_lego)        |
 | beamer_lego                | Routing       | [![beamer_lego](https://img.shields.io/pub/v/beamer_lego.svg)](https://pub.dev/packages/beamer_lego)                |
+| getx_lego                  | State Manager | [![getx_lego](https://img.shields.io/pub/v/getx_lego.svg)](https://pub.dev/packages/getx_lego)                  |
+| go_router_lego             | Routing       | [![go_router_lego](https://img.shields.io/pub/v/go_router_lego.svg)](https://pub.dev/packages/go_router_lego)             |
 | basic_bottom_navigation_view_lego | View          | [![basic_bottom_navigation_view_lego](https://img.shields.io/pub/v/basic_bottom_navigation_view_lego.svg)](https://pub.dev/packages/basic_bottom_navigation_view_lego) |
+
+
