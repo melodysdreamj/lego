@@ -9,7 +9,13 @@ A Framework with Sharing Flutter Module and View
 ### Get Started
 Follow [the guide](https://lego.junestory.com/) to get started.
 
-### Module Package
+### Architecture Lego
+| Lego                     | Description   | Version                                                                                           |
+|--------------------------|---------------|---------------------------------------------------------------------------------------------------|
+| simple_architecture_lego | Architecture  | [![simple_architecture_lego](https://img.shields.io/pub/v/simple_architecture_lego.svg)](https://pub.dev/packages/simple_architecture_lego) |
+
+
+### Module Lego
 
 | Package                    | Type          | Version                                                                                           |
 |----------------------------|---------------|---------------------------------------------------------------------------------------------------|
