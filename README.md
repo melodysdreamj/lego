@@ -15,7 +15,9 @@ github
 
 | Lego                     | Description   | Version                                                                                           |
 |--------------------------|---------------|---------------------------------------------------------------------------------------------------|
-| simple_architecture_lego | Architecture   | [![simple_architecture_lego](https://img.shields.io/github/v/tag/melodysdreamj/simple_architecture_lego?label=version&logo=github)](https://github.com/melodysdreamj/simple_architecture_lego) |### Module Lego
+| simple_architecture_lego | Architecture   | [![GitHub](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue)](https://github.com/melodysdreamj/simple_architecture_lego) |
+
+### Module Lego
 
 | Package                    | Type          | Version                                                                                           |
 |----------------------------|---------------|---------------------------------------------------------------------------------------------------|
