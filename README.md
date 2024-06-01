@@ -35,5 +35,5 @@ github
 | getx_lego                  | State Manager | [![getx_lego](https://img.shields.io/pub/v/getx_lego.svg)](https://pub.dev/packages/getx_lego)                  |
 | go_router_lego             | Routing       | [![go_router_lego](https://img.shields.io/pub/v/go_router_lego.svg)](https://pub.dev/packages/go_router_lego)             |
 | basic_bottom_navigation_view_lego | View          | [![basic_bottom_navigation_view_lego](https://img.shields.io/pub/v/basic_bottom_navigation_view_lego.svg)](https://pub.dev/packages/basic_bottom_navigation_view_lego) |
-
+| orange_lego                | Util          | [![orange_lego](https://img.shields.io/pub/v/orange_lego.svg)](https://pub.dev/packages/orange_lego)                |
 
