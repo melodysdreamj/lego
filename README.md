@@ -39,7 +39,7 @@ github
 | usage_note_lego            | Util          | [![usage_note_lego](https://img.shields.io/pub/v/usage_note_lego.svg)](https://pub.dev/packages/usage_note_lego)            |
 | app_links_lego             | Util          | [![app_links_lego](https://img.shields.io/pub/v/app_links_lego.svg)](https://pub.dev/packages/app_links_lego)             |
 | listener_lego              | Util          | [![listener_lego](https://img.shields.io/pub/v/listener_lego.svg)](https://pub.dev/packages/listener_lego)              |
-
+| flutter_fgbg_lego          | Util          | [![flutter_fgbg_lego](https://img.shields.io/pub/v/flutter_fgbg_lego.svg)](https://pub.dev/packages/flutter_fgbg_lego)          |
 
 
 
