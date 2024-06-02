@@ -80,7 +80,7 @@ import 'package:flutter/material.dart';
 import '../../../../../../../../main.dart';
 $importStatements
 
-
+@ListenersByLego()
 Future<void> readyForListeners(BuildContext context) async {
  if (_done) return; _done = true;
 
@@ -123,7 +123,7 @@ Future<List<String>> _findFilesWithListenersByLego(String searchDirectory) async
   }
 
 
-  print("find files with listeners by lego: $filePaths");
+  // print("find files with listeners by lego: $filePaths");
 
 
   return filePaths;
@@ -132,7 +132,6 @@ Future<List<String>> _findFilesWithListenersByLego(String searchDirectory) async
 
 // 앱 실행 전에 함수들을 찾아서 파일 생성
 Future<void> findFunctionsAndGenerateFileReadyListener() async {
-  print('Finding functions annotated with @ReadyForListener...');
   final List<_AnnotatedFunctionInfo> functions = await _findAnnotatedFunctions(p.join('lib'));
 
 
