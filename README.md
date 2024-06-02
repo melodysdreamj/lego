@@ -37,3 +37,4 @@ github
 | basic_bottom_navigation_view_lego | View          | [![basic_bottom_navigation_view_lego](https://img.shields.io/pub/v/basic_bottom_navigation_view_lego.svg)](https://pub.dev/packages/basic_bottom_navigation_view_lego) |
 | orange_lego                | Util          | [![orange_lego](https://img.shields.io/pub/v/orange_lego.svg)](https://pub.dev/packages/orange_lego)                |
 | usage_note_lego            | Util          | [![usage_note_lego](https://img.shields.io/pub/v/usage_note_lego.svg)](https://pub.dev/packages/usage_note_lego)            |
+| app_links_lego             | Util          | [![app_links_lego](https://img.shields.io/pub/v/app_links_lego.svg)](https://pub.dev/packages/app_links_lego)             |
