@@ -49,7 +49,7 @@ github
 ### Usage Snippet
 | Name | Gist |
 |------|------|
-| flutter linkpeek pub usage | [![linkpeek](https://gist.github.com/melodysdreamj/07bbd1db9976d99acf49ac494c0909d3) | 
+| flutter linkpeek pub usage | [![linkpeek_gist](https://img.shields.io/badge/View-Gist-007bff?style=for-the-badge&logo=flutter)](https://gist.github.com/melodysdreamj/07bbd1db9976d99acf49ac494c0909d3) |
 
 
 
