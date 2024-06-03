@@ -49,6 +49,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | Name | Gist |
 |------|-----|
 | flutter linkpeek pub usage | [![linkpeek_gist](https://img.shields.io/badge/Open-Gist-007bff?style=flat-square&logo=github)](https://gist.github.com/melodysdreamj/46495777be21281688030b3a4582fc67) |
+| html parse to object.dart | [![html_parse_gist](https://img.shields.io/badge/Open-Gist-007bff?style=flat-square&logo=github)](https://gist.github.com/melodysdreamj/5bd974a6647eb084595780301265729d) |
 
 
 
