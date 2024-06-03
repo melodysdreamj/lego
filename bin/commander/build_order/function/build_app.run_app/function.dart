@@ -70,7 +70,7 @@ import '../my_app/_.dart';
 $importStatements
 
 Future<void> buildApp({Widget? home}) async {
-  MyAppHome = home;
+  if (home != null) MyAppHome = home;
   await readyBeforeRunApp();
   Widget childWidget = MyApp();
 ${coverFunctionCalls.toString()}
