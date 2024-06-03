@@ -27,6 +27,7 @@ dev_dependencies:
   flutter_lints:
   screenutil_lego: #@add
   bot_toast_lego: #@add
+  widget_binding_lego: #@add
 
 flutter:
   assets:
