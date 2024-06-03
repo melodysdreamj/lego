@@ -17,7 +17,7 @@ github
 |--------------------------|---------------|---------------------------------------------------------------------------------------------------|
 | simple_architecture_lego | Architecture   | [![GitHub](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue)](https://github.com/melodysdreamj/simple_architecture_lego) |
 
-### Module Lego
+### Initial Legos
 
 | Package                    | Type          | Version                                                                                           |
 |----------------------------|---------------|---------------------------------------------------------------------------------------------------|
@@ -40,6 +40,34 @@ github
 | app_links_lego             | Util          | [![app_links_lego](https://img.shields.io/pub/v/app_links_lego.svg)](https://pub.dev/packages/app_links_lego)             |
 | listener_lego              | Util          | [![listener_lego](https://img.shields.io/pub/v/listener_lego.svg)](https://pub.dev/packages/listener_lego)              |
 | flutter_fgbg_lego          | Util          | [![flutter_fgbg_lego](https://img.shields.io/pub/v/flutter_fgbg_lego.svg)](https://pub.dev/packages/flutter_fgbg_lego)          |
+
+### View Legos
+
+
+
+
+### Usage Snippet
+| Name | Gist |
+|------|------|
+| flutter linkpeek pub usage | [![linkpeek](https://gist.github.com/melodysdreamj/07bbd1db9976d99acf49ac494c0909d3) | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
