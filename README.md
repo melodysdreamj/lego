@@ -42,7 +42,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | chrome_style_browser_lego  | [![chrome_style_browser_lego](https://img.shields.io/pub/v/chrome_style_browser_lego.svg)](https://pub.dev/packages/chrome_style_browser_lego)  |
 | toast_view_lego            | [![toast_view_lego](https://img.shields.io/pub/v/toast_view_lego.svg)](https://pub.dev/packages/toast_view_lego)            |
 | basic_bottom_navigation_view_lego | [![basic_bottom_navigation_view_lego](https://img.shields.io/pub/v/basic_bottom_navigation_view_lego.svg)](https://pub.dev/packages/basic_bottom_navigation_view_lego) |
-
+| favorite_button_lego       | [![favorite_button_lego](https://img.shields.io/pub/v/favorite_button_lego.svg)](https://pub.dev/packages/favorite_button_lego)       |
 
 
 ### Usage Snippet
