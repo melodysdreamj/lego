@@ -35,6 +35,8 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 
 
 ### View Legos
+you can look some widget [here](https://widgetbook.junestory.com/) 
+
 | Package                    | Type      | Version                                                                                           |
 |----------------------------|-----------|---------------------------------------------------------------------------------------------------|
 | lego add netflix_main_view_lego | Page      | [![netflix_main_view_lego](https://img.shields.io/pub/v/netflix_main_view_lego.svg)](https://pub.dev/packages/netflix_main_view_lego) |
