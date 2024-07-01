@@ -45,7 +45,7 @@ you can look some widget [here](https://widgetbook.junestory.com/)
 | toast_view_lego            | Page      | [![toast_view_lego](https://img.shields.io/pub/v/toast_view_lego.svg)](https://pub.dev/packages/toast_view_lego)            |
 | basic_bottom_navigation_view_lego | Page      | [![basic_bottom_navigation_view_lego](https://img.shields.io/pub/v/basic_bottom_navigation_view_lego.svg)](https://pub.dev/packages/basic_bottom_navigation_view_lego) |
 | favorite_button_lego       | Component | [![favorite_button_lego](https://img.shields.io/pub/v/favorite_button_lego.svg)](https://pub.dev/packages/favorite_button_lego)       |
-
+| simple_memo_lego           | Page      | [![simple_memo_lego](https://img.shields.io/pub/v/simple_memo_lego.svg)](https://pub.dev/packages/simple_memo_lego)           |
 
 ### Usage Snippet
 | Name | Gist |
