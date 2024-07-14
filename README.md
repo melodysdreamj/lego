@@ -39,7 +39,7 @@ you can look some widget [here](https://widgetbook.junestory.com/)
 
 | Package                    | Type      | Version                                                                                           |
 |----------------------------|-----------|---------------------------------------------------------------------------------------------------|
-| lego add netflix_main_view_lego | Page      | [![netflix_main_view_lego](https://img.shields.io/pub/v/netflix_main_view_lego.svg)](https://pub.dev/packages/netflix_main_view_lego) |
+| netflix_main_view_lego | Page      | [![netflix_main_view_lego](https://img.shields.io/pub/v/netflix_main_view_lego.svg)](https://pub.dev/packages/netflix_main_view_lego) |
 | widget_book_view_lego           | Page      | [![widget_book_view_lego](https://img.shields.io/pub/v/widget_book_view_lego.svg)](https://pub.dev/packages/widget_book_view_lego)           |
 | chrome_style_browser_lego  | Page      | [![chrome_style_browser_lego](https://img.shields.io/pub/v/chrome_style_browser_lego.svg)](https://pub.dev/packages/chrome_style_browser_lego)  |
 | toast_view_lego            | Page      | [![toast_view_lego](https://img.shields.io/pub/v/toast_view_lego.svg)](https://pub.dev/packages/toast_view_lego)            |
