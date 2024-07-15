@@ -37,7 +37,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 
 
 ### View Legos
-you can look some widget [here](https://widgetbook.junestory.com/) 
+you can look some widget [here](https://widgets.junestory.com/) 
 
 | Package                    | Type      | Version                                                                                           |
 |----------------------------|-----------|---------------------------------------------------------------------------------------------------|
