@@ -32,6 +32,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | app_links_lego             | [![app_links_lego](https://img.shields.io/pub/v/app_links_lego.svg)](https://pub.dev/packages/app_links_lego)             |
 | listener_lego              | [![listener_lego](https://img.shields.io/pub/v/listener_lego.svg)](https://pub.dev/packages/listener_lego)              |
 | flutter_fgbg_lego          | [![flutter_fgbg_lego](https://img.shields.io/pub/v/flutter_fgbg_lego.svg)](https://pub.dev/packages/flutter_fgbg_lego)          |
+| flutter_launcher_icons_lego | [![flutter_launcher_icons_lego](https://img.shields.io/pub/v/flutter_launcher_icons_lego.svg)](https://pub.dev/packages/flutter_launcher_icons_lego) |
 
 
 ### View Legos
