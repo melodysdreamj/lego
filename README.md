@@ -37,18 +37,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 
 
 ### View Legos
-you can look some widget [here](https://widgets.junestory.com/) 
-
-| Package                    | Type      | Version                                                                                           |
-|----------------------------|-----------|---------------------------------------------------------------------------------------------------|
-| netflix_main_view_lego | Page      | [![netflix_main_view_lego](https://img.shields.io/pub/v/netflix_main_view_lego.svg)](https://pub.dev/packages/netflix_main_view_lego) |
-| widget_book_view_lego           | Page      | [![widget_book_view_lego](https://img.shields.io/pub/v/widget_book_view_lego.svg)](https://pub.dev/packages/widget_book_view_lego)           |
-| chrome_style_browser_lego  | Page      | [![chrome_style_browser_lego](https://img.shields.io/pub/v/chrome_style_browser_lego.svg)](https://pub.dev/packages/chrome_style_browser_lego)  |
-| toast_view_lego            | Page      | [![toast_view_lego](https://img.shields.io/pub/v/toast_view_lego.svg)](https://pub.dev/packages/toast_view_lego)            |
-| basic_bottom_navigation_view_lego | Page      | [![basic_bottom_navigation_view_lego](https://img.shields.io/pub/v/basic_bottom_navigation_view_lego.svg)](https://pub.dev/packages/basic_bottom_navigation_view_lego) |
-| favorite_button_lego       | Component | [![favorite_button_lego](https://img.shields.io/pub/v/favorite_button_lego.svg)](https://pub.dev/packages/favorite_button_lego)       |
-| simple_memo_lego           | Page      | [![simple_memo_lego](https://img.shields.io/pub/v/simple_memo_lego.svg)](https://pub.dev/packages/simple_memo_lego)           |
-| navigation_rail_view_lego  | Page      | [![navigation_rail_view_lego](https://img.shields.io/pub/v/navigation_rail_view_lego.svg)](https://pub.dev/packages/navigation_rail_view_lego)  |
+you can look many widget lego [here](https://widgets.junestory.com/) 
 
 ### Usage Snippet
 | Name | Gist |
