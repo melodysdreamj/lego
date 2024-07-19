@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:june_flow_util/june_flow_util.dart';
 
 import '../../../../../../../../../../../main.dart';
 import 'dialog.dart';
@@ -40,5 +41,7 @@ class _UsageState extends State<Usage> {
 }
 
 main() async {
-  return await buildApp(home: Usage());
+  return runApp(MaterialApp(
+    home: Usage(),
+  ));
 }

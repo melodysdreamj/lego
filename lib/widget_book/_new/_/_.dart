@@ -13,11 +13,13 @@ class _NewViewState extends State<NewView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("New View").center(),
+      body: Center(child: Text("New View")),
     );
   }
 }
 
 main() async {
-  return buildApp(home: NewView());
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:styled_widget/styled_widget.dart';
 
 import '../../../../../../../../../../../main.dart';
 
@@ -22,5 +23,7 @@ class _NewViewState extends State<NewView> {
 }
 
 main() async {
-  return buildApp(home: NewView());
+  return runApp(MaterialApp(
+    home: NewView(),
+  ));
 }
