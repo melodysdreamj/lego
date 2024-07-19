@@ -76,11 +76,15 @@ buildApp() async {
     // 8. build project with lego style
     await buildAppWithJuneFlowStyle();
   }else{
+    print('This is not a lego project');
     for (var module in BuildInfo.instance.ModuleList) {
+      print('module: ${module.LibraryName}');
       // 5. check asset if exist, add to pubspec
       await addAssetPaths(
           module.AddLineToPubspecAssetsBlock.map((item) => item.toString().replaceAll('\\', '/'))
               .toList());
+
+      print('module.Packages: ${module.Packages}');
     }
   }
 
