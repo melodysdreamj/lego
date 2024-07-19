@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   flutter_svg: #@add
   gap: #@add
-  june_flow_util:
+  june_flow_util: #@add
   styled_widget: #@add
   modal_bottom_sheet: #@add
   keyboard_attachable: #@add
