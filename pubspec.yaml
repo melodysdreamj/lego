@@ -11,9 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  june_flow_util:
+  june_flow_util: #@add
   styled_widget: #@add
   modal_bottom_sheet: #@add
+  gap: #@add
+  flutter_svg: #@add
 
 dev_dependencies:
   flutter_test:
