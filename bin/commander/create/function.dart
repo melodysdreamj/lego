@@ -33,6 +33,11 @@ createApp() async {
         'https://github.com/melodysdreamj/lego.git',
         'lego_template',
         result.Name);
+  } else if (result.Type == ProjectTypeEnum.WidgetLegoTemplate) {
+    successClone = await cloneAndRemoveGit(
+        'https://github.com/melodysdreamj/lego.git',
+        'pure_widget_lego_template',
+        result.Name);
   }
   // else if (result.Type == ProjectTypeEnum.Skeleton) {
   //   successClone =
@@ -84,8 +89,8 @@ createApp() async {
         'assets/lego/_new/', 'assets/lego/${result.Name}/');
 
     await replaceStringInFile(
-        path.join(
-            result.Name,'lib', 'util', '_', 'shared_params', '_', 'material_app.dart'),
+        path.join(result.Name, 'lib', 'util', '_', 'shared_params', '_',
+            'material_app.dart'),
         "static String appName = 'June';",
         "static String appName = '${result.Name}';");
 
@@ -93,21 +98,41 @@ createApp() async {
         path.join(result.Name, 'lib', 'widget_book'), result.Name,
         checkDirName: [
           '_new',
-          '_new.dialog',
+          '_new.component',
           '_new.bottom_sheet',
+          '_new.dialog',
           '_new.snackbar',
           '_new.toast',
           '_new.in_app_notification',
         ]);
 
     // } else if (result.Type == ProjectTypeEnum.ViewTemplate) {
-    await renameNewFolders(
-        path.join(result.Name, 'assets', 'lego'), result.Name);
+    // await renameNewFolders(
+    //     path.join(result.Name, 'assets', 'lego'), result.Name);
     //   await reCreateNameNewFolders('${result.Name}/lib/app/_/_/interaction', result.Name);
     await replaceStringInFile(
         path.join(result.Name, 'README.md'), 'NewLego', result.Name);
+    // await replaceStringInFile(path.join(result.Name, 'pubspec.yaml'),
+    //     'assets/lego/_new/', 'assets/view/${result.Name}/');
+  } else if (result.Type == ProjectTypeEnum.WidgetLegoTemplate) {
+    await renameNewFolders(
+        path.join(result.Name, 'assets', 'lego'), result.Name);
+
     await replaceStringInFile(path.join(result.Name, 'pubspec.yaml'),
-        'assets/lego/_new/', 'assets/view/${result.Name}/');
+        'assets/lego/_new/', 'assets/lego/${result.Name}/');
+
+    await renameNewFolders(
+        path.join(result.Name, 'lib', 'widget_book'), result.Name,
+        checkDirName: [
+          '_new',
+          '_new.component',
+          '_new.bottom_sheet',
+          '_new.dialog',
+          '_new.snackbar',
+        ]);
+
+    await replaceStringInFile(
+        path.join(result.Name, 'README.md'), 'NewLego', result.Name);
   } else {
     print('Invalid project type: ${result.Type}');
     return;

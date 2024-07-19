@@ -3,7 +3,7 @@ import 'dart:convert';
 enum ProjectTypeEnum {
   NotSelected,
   Skeleton,
-  // ModuleTemplate,
+  WidgetLegoTemplate,
   // ViewTemplate,
   // JuneViewProject,
   LegoTemplate,

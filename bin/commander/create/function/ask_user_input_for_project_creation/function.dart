@@ -11,6 +11,7 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
 
     print('1. New Project(default)');
     print('2. New Lego Plugin');
+    print('3. New Widget Lego Plugin');
     String? typeSelection = await readLine();
     if (typeSelection?.toLowerCase() == 'cancel') {
       print('Operation cancelled.');
@@ -22,6 +23,10 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
         break;
       case '2':
         type = 'lego template';
+        break;
+
+      case '3':
+        type = 'widget lego template';
         break;
 
       case '':
@@ -40,6 +45,8 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
     result = await _createEmptyProject();
   } else if(type == 'lego template') {
     result = await _createLegoTemplate();
+  } else if(type == 'widget lego template') {
+    result = await _createWidgetLegoTemplate();
   }
 
   // if (type == 'module template') {
@@ -107,6 +114,13 @@ Future<CreationResult?> _createLegoTemplate() async {
 //   return CreationResult()..Type = ProjectTypeEnum.ViewTemplate..Name = name;
 //   return CreationResult()..Type = ProjectTypeEnum.ViewTemplate..Name = name;
 // }
+
+Future<CreationResult?> _createWidgetLegoTemplate() async {
+  String? name = await _getName('widget lego plugin');
+  if (name == null) return null; // Operation was cancelled.
+  return CreationResult()..Type = ProjectTypeEnum.WidgetLegoTemplate..Name = name;
+  // return CreationResult()..Type = ProjectTypeEnum.ModuleTemplate..Name = name;
+}
 
 Future<String?> _getName(String type) async {
   String? name;
