@@ -38,7 +38,6 @@ Future<void> getJuneFlowPackagesInProject() async {
     if (await _checkJuneFlowModuleOrLegoTopic(packagePath)) {
       Module module = await generateModuleObjFromPackage(packagePath, name, details['version']);
 
-      print('module 2: ${module.LibraryName}');
 
       // 경로 처리 부분 수정
       module = await checkAssetsHandler(packagePath, module,
@@ -97,7 +96,6 @@ Future<String> _readReadmeContent(String projectPath) async {
 
 Future<List<FilePathAndContents>> _generateFilePathAndContentsList(
     String libraryName, String projectPath, List<String> copyPaths) async {
-  print('copyPaths: $copyPaths');
   List<String> filteredCopyPaths = copyPaths.where((copyPath) {
     bool startsWithUtil = copyPath.startsWith('lib/util');
     bool containsLibraryName = copyPath.contains(path.join(libraryName));
@@ -109,7 +107,6 @@ Future<List<FilePathAndContents>> _generateFilePathAndContentsList(
         (!startsWithUtil || (startsWithUtil && containsLibraryName));
   }).toList();
 
-  print('filteredCopyPaths: $filteredCopyPaths');
 
 
   List<FilePathAndContents> files = [];
