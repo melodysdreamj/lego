@@ -23,6 +23,8 @@ buildApp() async {
   //   return;
   // }
 
+  print('isLegoProject: $isLegoProject');
+
   await addAllModules();
 
   await getJuneFlowPackagesInProject();
@@ -73,14 +75,16 @@ buildApp() async {
 
     // 8. build project with lego style
     await buildAppWithJuneFlowStyle();
+  }else{
+    for (var module in BuildInfo.instance.ModuleList) {
+      // 5. check asset if exist, add to pubspec
+      await addAssetPaths(
+          module.AddLineToPubspecAssetsBlock.map((item) => item.toString().replaceAll('\\', '/'))
+              .toList());
+    }
   }
 
-  for (var module in BuildInfo.instance.ModuleList) {
-    // 5. check asset if exist, add to pubspec
-    await addAssetPaths(
-        module.AddLineToPubspecAssetsBlock.map((item) => item.toString().replaceAll('\\', '/'))
-            .toList());
-  }
+
 
   // 7. apply .tempDir to lib folder
   await applyTempDirToProject();
