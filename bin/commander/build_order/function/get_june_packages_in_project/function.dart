@@ -112,6 +112,7 @@ Future<List<FilePathAndContents>> _generateFilePathAndContentsList(
   List<FilePathAndContents> files = [];
 
   for (String relativePath in filteredCopyPaths) {
+    print('relativePath: $relativePath');
     String fullPath = path.join(projectPath, relativePath);
 
     FileSystemEntityType entityType =
