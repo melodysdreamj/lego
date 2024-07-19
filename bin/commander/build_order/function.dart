@@ -16,12 +16,12 @@ import 'function/pasted_all_code_files_to_temp_dir/function.dart';
 import 'function/reset_temp_dir/function.dart';
 
 buildApp() async {
-  String? pass = await checkIsRightProjectOrLegoTopic();
 
-  if (pass == null) {
-    print('This is not a lego project');
-    return;
-  }
+  bool isLegoProject = await checkIsRightProject();
+  // if (!await checkIsRightProject()) {
+  //   print('This is not a lego project');
+  //   return;
+  // }
 
   await addAllModules();
 
@@ -37,7 +37,7 @@ buildApp() async {
     await pasteAllCodeFiles(module.LibraryName, module.Files);
   }
 
-  if (pass == 'common lego') {
+  if(isLegoProject) {
     for (var module in BuildInfo.instance.ModuleList) {
       // 1. global_imports.dart 수정
       for (var globalImport in module.AddLineToGlobalImports) {
@@ -60,20 +60,22 @@ buildApp() async {
       // }
 
       // 5. check asset if exist, add to pubspec
-      await addAssetPaths(module.AddLineToPubspecAssetsBlock.map(
-          (item) => item.toString().replaceAll('\\', '/')).toList());
+      await addAssetPaths(
+          module.AddLineToPubspecAssetsBlock.map((item) => item.toString().replaceAll('\\', '/'))
+              .toList());
 
       // 7. add package to pubspec
       // await addPackagesIfNeeded(module.Packages, devPackage: false);
       // await addPackagesIfNeeded(module.DevPackage, devPackage: true);
     }
 
-    // 7. build project with lego style
+
+
+    // 8. build project with lego style
     await buildAppWithJuneFlowStyle();
   }
 
-  // 8. apply .tempDir to lib folder
+  // 7. apply .tempDir to lib folder
   await applyTempDirToProject();
-
 
 }
