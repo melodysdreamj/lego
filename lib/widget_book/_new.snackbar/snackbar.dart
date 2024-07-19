@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../../../../../main.dart';
 import '_/_.dart';
 
 void NewSnackBar(BuildContext context, int duration) async {
