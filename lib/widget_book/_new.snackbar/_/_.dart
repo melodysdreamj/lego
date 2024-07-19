@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:styled_widget/styled_widget.dart';
 
-import '../../../../../../../../../../../main.dart';
-
 class NewView extends StatefulWidget {
   const NewView({super.key});
 

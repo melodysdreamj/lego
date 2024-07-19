@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:june_flow_util/june_flow_util.dart';
 
-import '../../../../../../../../../../../main.dart';
 import 'snackbar.dart';
 
 var openWidget = (BuildContext context) async {

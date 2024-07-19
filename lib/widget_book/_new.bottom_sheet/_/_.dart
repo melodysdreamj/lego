@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../../../../../../main.dart';
-
 class NewView extends StatefulWidget {
   const NewView({super.key});
 
