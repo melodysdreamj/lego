@@ -16,10 +16,10 @@ import 'function/pasted_all_code_files_to_temp_dir/function.dart';
 import 'function/reset_temp_dir/function.dart';
 
 buildApp() async {
-  if (!await checkIsRightProject()) {
-    print('This is not a lego project');
-    return;
-  }
+  // if (!await checkIsRightProject()) {
+  //   print('This is not a lego project');
+  //   return;
+  // }
 
   await addAllModules();
 
