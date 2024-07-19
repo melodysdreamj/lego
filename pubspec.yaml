@@ -1,6 +1,6 @@
 name: lego_cli
 description: "lego cli"
-version: 0.9.11
+version: 0.9.12
 homepage: https://github.com/melodysdreamj/lego/tree/lego_cli
 
 environment:
