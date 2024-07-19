@@ -2,7 +2,6 @@
 [![pub package](https://img.shields.io/pub/v/NewLego.svg)](https://pub.dartlang.org/packages/NewLego)
 
 # NewLego
-description here
 
 ##  Installation
 1. open terminal in the lego project root directory, enter the following command for install cli.
@@ -15,6 +14,3 @@ lego create
 ```bash
 lego add NewLego
 ```
-
-## Usage
-Usage here
