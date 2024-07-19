@@ -34,7 +34,8 @@ Future<void> getJuneFlowPackagesInProject() async {
     var packagePath = getPackagePath(name, details['version']);
     if (packagePath == null) continue;
 
-    if (await _checkJuneFlowModule(packagePath, name, details['version'])) {
+    // if (await _checkJuneFlowModule(packagePath, name, details['version'])) {
+    if (await _checkJuneFlowModuleOrLegoTopic(packagePath)) {
       Module module = await generateModuleObjFromPackage(packagePath, name, details['version']);
 
       // 경로 처리 부분 수정
@@ -50,11 +51,37 @@ Future<void> getJuneFlowPackagesInProject() async {
   }
 }
 
-Future<bool> _checkJuneFlowModule(String packagePath, String packageName, String packageVersion) async {
-  File file = File(path.join(packagePath, 'lib', 'util', '_', 'build_app', 'widget', 'run_app', '_'
-      '.dart'));
+Future<bool> _checkJuneFlowModuleOrLegoTopic(String packagePath) async {
+  // 첫 번째 조건: 특정 파일이 존재하는지 확인
+  Future<bool> checkJuneFlowModule() async {
+    File file = File(path.join(packagePath, 'lib', 'util', '_', 'build_app', 'widget', 'run_app', '_'
+        '.dart'));
+    return await file.exists();
+  }
 
-  return await file.exists();
+  // 두 번째 조건: pubspec.yaml에서 topics에 'lego'가 있는지 확인
+  Future<bool> checkLegoTopicInPubspec() async {
+    final pubspecFile = File(path.join(packagePath, 'pubspec.yaml'));
+
+    if (!await pubspecFile.exists()) {
+      return false;
+    }
+
+    final pubspecContent = await pubspecFile.readAsString();
+    final yamlMap = loadYaml(pubspecContent);
+
+    if (yamlMap['topics'] is List) {
+      return yamlMap['topics'].contains('lego');
+    }
+
+    return false;
+  }
+
+  // 두 조건 중 하나라도 true이면 true 반환
+  bool juneFlowModuleExists = await checkJuneFlowModule();
+  bool legoTopicExists = await checkLegoTopicInPubspec();
+
+  return juneFlowModuleExists || legoTopicExists;
 }
 
 Future<String> _readReadmeContent(String projectPath) async {

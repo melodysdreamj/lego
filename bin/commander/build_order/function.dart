@@ -16,10 +16,12 @@ import 'function/pasted_all_code_files_to_temp_dir/function.dart';
 import 'function/reset_temp_dir/function.dart';
 
 buildApp() async {
-  // if (!await checkIsRightProject()) {
-  //   print('This is not a lego project');
-  //   return;
-  // }
+  String? pass = await checkIsRightProjectOrLegoTopic();
+
+  if (pass == null) {
+    print('This is not a lego project');
+    return;
+  }
 
   await addAllModules();
 
@@ -35,40 +37,43 @@ buildApp() async {
     await pasteAllCodeFiles(module.LibraryName, module.Files);
   }
 
-  for (var module in BuildInfo.instance.ModuleList) {
-    // 1. global_imports.dart 수정
-    for (var globalImport in module.AddLineToGlobalImports) {
-      // global_imports.dart 파일을 읽어서 해당 모듈의 global_imports를 추가한다.
-      await addExportIfNotExists(globalImport);
+  if (pass == 'common lego') {
+    for (var module in BuildInfo.instance.ModuleList) {
+      // 1. global_imports.dart 수정
+      for (var globalImport in module.AddLineToGlobalImports) {
+        // global_imports.dart 파일을 읽어서 해당 모듈의 global_imports를 추가한다.
+        await addExportIfNotExists(globalImport);
+      }
+
+      // 2. gitignore 추가
+      for (var gitignore in module.AddLineToGitignore) {
+        // gitignore 파일을 읽어서 해당 모듈의 gitignore를 추가한다.
+        await addLineToGitignore(gitignore);
+      }
+
+      // 3. add code block to pubspec
+      await updatePubspecWithCodeBlocks(module.PubspecCodeBloc);
+
+      // 4. add readme
+      // if(module.Type == ProjectTypeEnum.ModuleTemplate || module.Type == ProjectTypeEnum.ViewTemplate) {
+      //   await addReadme(module.ReadMeContents, module.LibraryName);
+      // }
+
+      // 5. check asset if exist, add to pubspec
+      await addAssetPaths(module.AddLineToPubspecAssetsBlock.map(
+          (item) => item.toString().replaceAll('\\', '/')).toList());
+
+      // 7. add package to pubspec
+      // await addPackagesIfNeeded(module.Packages, devPackage: false);
+      // await addPackagesIfNeeded(module.DevPackage, devPackage: true);
     }
 
-    // 2. gitignore 추가
-    for (var gitignore in module.AddLineToGitignore) {
-      // gitignore 파일을 읽어서 해당 모듈의 gitignore를 추가한다.
-      await addLineToGitignore(gitignore);
-    }
-
-    // 3. add code block to pubspec
-    await updatePubspecWithCodeBlocks(module.PubspecCodeBloc);
-
-    // 4. add readme
-    // if(module.Type == ProjectTypeEnum.ModuleTemplate || module.Type == ProjectTypeEnum.ViewTemplate) {
-    //   await addReadme(module.ReadMeContents, module.LibraryName);
-    // }
-
-    // 5. check asset if exist, add to pubspec
-    await addAssetPaths(
-        module.AddLineToPubspecAssetsBlock.map((item) => item.toString().replaceAll('\\', '/'))
-            .toList());
-
-    // 7. add package to pubspec
-    // await addPackagesIfNeeded(module.Packages, devPackage: false);
-    // await addPackagesIfNeeded(module.DevPackage, devPackage: true);
+    // 7. build project with lego style
+    await buildAppWithJuneFlowStyle();
   }
 
-  // 7. apply .tempDir to lib folder
+  // 8. apply .tempDir to lib folder
   await applyTempDirToProject();
 
-  // 8. build project with lego style
-  await buildAppWithJuneFlowStyle();
+
 }
