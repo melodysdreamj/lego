@@ -23,7 +23,7 @@ buildApp() async {
   //   return;
   // }
 
-  print('isLegoProject: $isLegoProject');
+  // print('isLegoProject: $isLegoProject');
 
   await addAllModules();
 
