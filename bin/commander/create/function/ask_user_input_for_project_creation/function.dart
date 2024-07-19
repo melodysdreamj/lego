@@ -138,6 +138,8 @@ Future<String?> _getName(String type) async {
   }
   if(type == 'lego plugin') {
     return '${name}_lego';
+  }else if(type == 'widget lego plugin') {
+    return '${name}_lego';
   }else {
     return name;
   }
