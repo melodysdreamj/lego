@@ -4,13 +4,8 @@
 # NewLego
 
 ##  Installation
-1. open terminal in the lego project root directory, enter the following command for install cli.
-   and create a new lego project if you don't have one.
+1. in terminal, enter the following command for add lego to your project.
 ```bash
 flutter pub global activate lego_cli
-lego create
-```
-2. in terminal, enter the following command for add lego to project.
-```bash
 lego add NewLego
 ```
