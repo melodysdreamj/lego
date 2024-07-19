@@ -38,6 +38,8 @@ Future<void> getJuneFlowPackagesInProject() async {
     if (await _checkJuneFlowModuleOrLegoTopic(packagePath)) {
       Module module = await generateModuleObjFromPackage(packagePath, name, details['version']);
 
+      print('module 2: ${module.LibraryName}');
+
       // 경로 처리 부분 수정
       module = await checkAssetsHandler(packagePath, module,
           path.join(packagePath, 'assets', 'lego', module.LibraryName));
