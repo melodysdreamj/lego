@@ -13,6 +13,7 @@ class _AnnotatedFunctionInfo {
 }
 
 Future<void> findFunctionsAndGenerateFileBuildMyApp() async {
+  print("여기는 되는지 체크");
   String searchDirectory = path.join('lib', 'util', '_', 'build_app', 'widget', 'my_app');
   String targetFilePath = path.join(searchDirectory, '_.dart');
   final List<_AnnotatedFunctionInfo> coverFunctions = await _findCoverMyAppFunctions(searchDirectory);
