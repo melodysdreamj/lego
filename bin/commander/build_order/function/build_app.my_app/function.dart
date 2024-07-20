@@ -22,9 +22,7 @@ Future<void> findFunctionsAndGenerateFileBuildMyApp() async {
 Future<List<_AnnotatedFunctionInfo>> _findCoverMyAppFunctions(String searchDirectory) async {
   final List<_AnnotatedFunctionInfo> functions = [];
   final directory = Directory(searchDirectory);
-  print('directory: ${directory.path}');
   await for (final file in directory.list(recursive: true, followLinks: false)) {
-    print('file: ${file.path}');
     if (file is File && file.path.endsWith('.dart')) {
       final content = await file.readAsString();
       final RegExp exp = RegExp(
