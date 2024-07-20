@@ -14,6 +14,9 @@ class _AnnotatedFunctionInfo {
 
 Future<void> findFunctionsAndGenerateFileBuildMyApp() async {
   print("여기는 되는지 체크");
+  // 5초 기다려보자.
+  await Future.delayed(Duration(seconds: 5));
+  print('5초가 지났습니다.');
   String searchDirectory = path.join('lib', 'util', '_', 'build_app', 'widget', 'my_app');
   String targetFilePath = path.join(searchDirectory, '_.dart');
   final List<_AnnotatedFunctionInfo> coverFunctions = await _findCoverMyAppFunctions(searchDirectory);
