@@ -72,7 +72,8 @@ buildApp() async {
       // await addPackagesIfNeeded(module.DevPackage, devPackage: true);
     }
 
-
+    // 7. apply .tempDir to lib folder
+    await applyTempDirToProject();
 
     // 8. build project with lego style
     await buildAppWithJuneFlowStyle();
@@ -82,13 +83,14 @@ buildApp() async {
       await addAssetPaths(
           module.AddLineToPubspecAssetsBlock.map((item) => item.toString().replaceAll('\\', '/'))
               .toList());
-
     }
+
+    // 7. apply .tempDir to lib folder
+    await applyTempDirToProject();
   }
 
 
 
-  // 7. apply .tempDir to lib folder
-  await applyTempDirToProject();
+
 
 }
