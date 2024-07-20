@@ -34,7 +34,8 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | flutter_fgbg_lego          | [![flutter_fgbg_lego](https://img.shields.io/pub/v/flutter_fgbg_lego.svg)](https://pub.dev/packages/flutter_fgbg_lego)          |
 | flutter_launcher_icons_lego | [![flutter_launcher_icons_lego](https://img.shields.io/pub/v/flutter_launcher_icons_lego.svg)](https://pub.dev/packages/flutter_launcher_icons_lego) |
 | flutter_native_splash_lego | [![flutter_native_splash_lego](https://img.shields.io/pub/v/flutter_native_splash_lego.svg)](https://pub.dev/packages/flutter_native_splash_lego) |
-
+| firebase_core_lego         | [![firebase_core_lego](https://img.shields.io/pub/v/firebase_core_lego.svg)](https://pub.dev/packages/firebase_core_lego)         |
+| firebase_analytics_lego    | [![firebase_analytics_lego](https://img.shields.io/pub/v/firebase_analytics_lego.svg)](https://pub.dev/packages/firebase_analytics_lego)    |
 
 ### View Legos
 you can look many widget lego [here](https://widgets.junestory.com/) 
