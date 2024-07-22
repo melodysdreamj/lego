@@ -36,6 +36,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | flutter_native_splash_lego | [![flutter_native_splash_lego](https://img.shields.io/pub/v/flutter_native_splash_lego.svg)](https://pub.dev/packages/flutter_native_splash_lego) |
 | firebase_core_lego         | [![firebase_core_lego](https://img.shields.io/pub/v/firebase_core_lego.svg)](https://pub.dev/packages/firebase_core_lego)         |
 | firebase_analytics_lego    | [![firebase_analytics_lego](https://img.shields.io/pub/v/firebase_analytics_lego.svg)](https://pub.dev/packages/firebase_analytics_lego)    |
+| admob_lego                 | [![admob_lego](https://img.shields.io/pub/v/admob_lego.svg)](https://pub.dev/packages/admob_lego)                 |
 
 ### View Legos
 you can look many widget lego [here](https://widgets.junestory.com/) 
