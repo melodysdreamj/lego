@@ -11,9 +11,9 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 
 ### Architecture Lego
 
-| Lego                        | Version                                                                                           |
-|--------------------------|---------------------------------------------------------------------------------------------------|
-| simple_architecture_lego | [![GitHub](https://img.shields.io/badge/GitHub-View-blue)](https://github.com/melodysdreamj/simple_architecture_lego) |
+| Lego                        | Version                                                                                                               |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| simple_architecture_lego | [![GitHub](https://img.shields.io/badge/GitHub-Open-blue)](https://github.com/melodysdreamj/simple_architecture_lego) |
 
 ### Initial Legos
 
