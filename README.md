@@ -40,7 +40,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | admob_lego                 | [![admob_lego](https://img.shields.io/pub/v/admob_lego.svg)](https://pub.dev/packages/admob_lego)                 |
 
 ### View Legos
-you can look many widget lego [here](https://widgets.junestory.com/) 
+you can look many widget lego [here](https://widgetbook.junestory.com/) 
 
 ### Usage Snippet
 | Name | Gist |
