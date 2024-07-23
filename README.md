@@ -29,6 +29,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | go_router_lego             | [![go_router_lego](https://img.shields.io/pub/v/go_router_lego.svg)](https://pub.dev/packages/go_router_lego)             |
 | orange_lego                | [![orange_lego](https://img.shields.io/pub/v/orange_lego.svg)](https://pub.dev/packages/orange_lego)                |
 | usage_note_lego            | [![usage_note_lego](https://img.shields.io/pub/v/usage_note_lego.svg)](https://pub.dev/packages/usage_note_lego)            |
+| logger_lego                | [![logger_lego](https://img.shields.io/pub/v/logger_lego.svg)](https://pub.dev/packages/logger_lego)                |
 | app_links_lego             | [![app_links_lego](https://img.shields.io/pub/v/app_links_lego.svg)](https://pub.dev/packages/app_links_lego)             |
 | listener_lego              | [![listener_lego](https://img.shields.io/pub/v/listener_lego.svg)](https://pub.dev/packages/listener_lego)              |
 | flutter_fgbg_lego          | [![flutter_fgbg_lego](https://img.shields.io/pub/v/flutter_fgbg_lego.svg)](https://pub.dev/packages/flutter_fgbg_lego)          |
