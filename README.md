@@ -28,6 +28,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | getx_lego                  | [![getx_lego](https://img.shields.io/pub/v/getx_lego.svg)](https://pub.dev/packages/getx_lego)                  |
 | go_router_lego             | [![go_router_lego](https://img.shields.io/pub/v/go_router_lego.svg)](https://pub.dev/packages/go_router_lego)             |
 | orange_lego                | [![orange_lego](https://img.shields.io/pub/v/orange_lego.svg)](https://pub.dev/packages/orange_lego)                |
+| permission_handler_lego    | [![permission_handler_lego](https://img.shields.io/pub/v/permission_handler_lego.svg)](https://pub.dev/packages/permission_handler_lego)    |
 | usage_note_lego            | [![usage_note_lego](https://img.shields.io/pub/v/usage_note_lego.svg)](https://pub.dev/packages/usage_note_lego)            |
 | logger_lego                | [![logger_lego](https://img.shields.io/pub/v/logger_lego.svg)](https://pub.dev/packages/logger_lego)                |
 | app_links_lego             | [![app_links_lego](https://img.shields.io/pub/v/app_links_lego.svg)](https://pub.dev/packages/app_links_lego)             |
