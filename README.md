@@ -31,6 +31,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | permission_handler_lego    | [![permission_handler_lego](https://img.shields.io/pub/v/permission_handler_lego.svg)](https://pub.dev/packages/permission_handler_lego)    |
 | usage_note_lego            | [![usage_note_lego](https://img.shields.io/pub/v/usage_note_lego.svg)](https://pub.dev/packages/usage_note_lego)            |
 | logger_lego                | [![logger_lego](https://img.shields.io/pub/v/logger_lego.svg)](https://pub.dev/packages/logger_lego)                |
+| geolocator_lego            | [![geolocator_lego](https://img.shields.io/pub/v/geolocator_lego.svg)](https://pub.dev/packages/geolocator_lego)            |
 | app_links_lego             | [![app_links_lego](https://img.shields.io/pub/v/app_links_lego.svg)](https://pub.dev/packages/app_links_lego)             |
 | listener_lego              | [![listener_lego](https://img.shields.io/pub/v/listener_lego.svg)](https://pub.dev/packages/listener_lego)              |
 | flutter_fgbg_lego          | [![flutter_fgbg_lego](https://img.shields.io/pub/v/flutter_fgbg_lego.svg)](https://pub.dev/packages/flutter_fgbg_lego)          |
