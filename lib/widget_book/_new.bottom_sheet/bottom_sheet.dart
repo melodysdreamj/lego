@@ -11,5 +11,5 @@ void NewBottomSheet(BuildContext context) async {
       context: context,
       backgroundColor: Colors.transparent,
       builder: (context) =>
-          NewView().backgroundColor(Theme.of(context).colorScheme.background));
+          NewView().backgroundColor(Theme.of(context).colorScheme.surface));
 }
