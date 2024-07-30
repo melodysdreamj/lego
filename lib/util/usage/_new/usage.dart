@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../main.dart';
+import '../../../../../../../../main.dart';
 
 String _noteName = "Note";
 
