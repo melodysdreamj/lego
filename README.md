@@ -44,6 +44,8 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | firebase_app_check_lego    | [![firebase_app_check_lego](https://img.shields.io/pub/v/firebase_app_check_lego.svg)](https://pub.dev/packages/firebase_app_check_lego)    |
 | firebase_vertexai_lego     | [![firebase_vertexai_lego](https://img.shields.io/pub/v/firebase_vertexai_lego.svg)](https://pub.dev/packages/firebase_vertexai_lego)     |
 | admob_lego                 | [![admob_lego](https://img.shields.io/pub/v/admob_lego.svg)](https://pub.dev/packages/admob_lego)                 |
+| timezone_lego             | [![timezone_lego](https://img.shields.io/pub/v/timezone_lego.svg)](https://pub.dev/packages/timezone_lego)              |
+| 
 
 ### View Legos
 you can look many widget lego [here](https://widgetbook.junestory.com/) 
