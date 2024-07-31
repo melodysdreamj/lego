@@ -46,6 +46,7 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | admob_lego                 | [![admob_lego](https://img.shields.io/pub/v/admob_lego.svg)](https://pub.dev/packages/admob_lego)                 |
 | timezone_lego             | [![timezone_lego](https://img.shields.io/pub/v/timezone_lego.svg)](https://pub.dev/packages/timezone_lego)              |
 | intl_lego                  | [![intl_lego](https://img.shields.io/pub/v/intl_lego.svg)](https://pub.dev/packages/intl_lego)                  |
+| csv_localizations_lego     | [![csv_localizations_lego](https://img.shields.io/pub/v/csv_localizations_lego.svg)](https://pub.dev/packages/csv_localizations_lego)     |
 
 ### View Legos
 you can look many widget lego [here](https://widgetbook.junestory.com/) 
