@@ -165,6 +165,11 @@ pod install
 4. close xcode and open the project again
 5. go to info.plist and add the following options inside <dict> tag
 ```xml
+<key>UIBackgroundModes</key>
+<array>
+<string>fetch</string>
+    <string>processing</string>
+</array>
 <!-- Permission options for the `location` group -->
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>Location is required to find out where you are</string>
