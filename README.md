@@ -3,9 +3,22 @@
 
 # NewLego
 
-##  Installation
-1. in terminal, enter the following command for add lego to your project.
-```bash
-flutter pub global activate lego_cli
-lego add NewLego
-```
+## Installation
+1. please enter the following command in the terminal to install the CLI:
+    ```bash
+    flutter pub global activate lego_cli
+    ```
+   * If this is your first time using `pub global`, Please refer to the [documentation](https://dart.dev/tools/pub/cmd/pub-global) for more information.
+
+
+2. To add Lego to your project, enter the following command in the terminal at the root of your project:
+   ```bash
+   lego add NewLego
+   ```
+3. run the following command to generate the widget: 
+    ```bash
+    flutter run -d chrome lib/widget_book/NewLego/_/_.dart
+    ```
+
+## Creating a New Widget Guide
+If you want to create a new widget, please refer to the documentation here: [Create a Widget](https://doc.junestory.com/widgetbook/create-widget)widget.
