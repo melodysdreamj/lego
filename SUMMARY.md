@@ -1,10 +1,10 @@
 # Table of contents
 
-## Get Started
-
-* [Create Project](README.md)
-
 ## etc
 
-* [Install Pub Global](etc/install-pub-global.md)
+* [Install Pub Global](README.md)
 * [Environment](etc/environment.md)
+
+## Widgetbook
+
+* [Create Widget](widgetbook/create-widget.md)
