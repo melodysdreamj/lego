@@ -2,7 +2,6 @@
 [![pub package](https://img.shields.io/pub/v/NewLego.svg)](https://pub.dartlang.org/packages/NewLego)
 
 # NewLego
-<!--  ## [**🔥🔥 WEB DEMO 🔥🔥**](https://widgetbook.junestory.com/) -->
 
 ##  Installation
 1. in terminal, enter the following command for add lego to your project.
