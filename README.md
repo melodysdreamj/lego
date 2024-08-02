@@ -7,5 +7,5 @@ flutter pub global activate lego_cli
 ```
 
 {% hint style="info" %}
-If this is your first time with pub global, please refer to [this page](https://doc.juneflow.org/get-started-1/install-cli).
+If this is your first time with pub global, please refer this [document](etc/install-pub-global.md)
 {% endhint %}
