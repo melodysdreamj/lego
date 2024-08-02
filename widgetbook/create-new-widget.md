@@ -17,6 +17,8 @@
 
 add any assets to the `assets/lego/_new/` folder
 
+* note: always use relative paths for imports
+
 ### Add Libraries
 
 1. add any libraries to this terminal command:
@@ -35,5 +37,6 @@ dependencies:
 ```
 
 * this will automatically add your project's dependencies to the pubspec.yaml file when you add a new widget.
+* do not add the library that need initialization in the main.dart file.
 
 ###
