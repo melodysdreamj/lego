@@ -11,8 +11,10 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
 
     print('1. New Project(default)');
     print('2. New Lego Plugin');
-    print('3-1. New Widget Lego Plugin(Page)');
-    print('3-2. New Widget Lego Plugin(Widget)');
+    print('3. New Widget Lego Plugin(View)');
+    print('4. New Widget Lego Plugin(BottomSheet)');
+    print('5. New Widget Lego Plugin(Dialog)');
+    print('6. New Widget Lego Plugin(SnackBar)');
     String? typeSelection = await readLine();
     if (typeSelection?.toLowerCase() == 'cancel') {
       print('Operation cancelled.');
@@ -28,6 +30,18 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
 
       case '3':
         type = 'widget lego template';
+        break;
+
+      case '4':
+        type = 'widget lego template(bottomsheet)';
+        break;
+
+      case '5':
+        type = 'widget lego template(dialog)';
+        break;
+
+      case '6':
+        type = 'widget lego template(snackbar)';
         break;
 
       case '':
@@ -48,6 +62,12 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
     result = await _createLegoTemplate();
   } else if(type == 'widget lego template') {
     result = await _createWidgetLegoTemplate();
+  } else if(type == 'widget lego template(bottomsheet)') {
+    result = await _createWidgetLegoTemplateBottomSheet();
+  } else if(type == 'widget lego template(dialog)') {
+    result = await _createWidgetLegoTemplateDialog();
+  } else if(type == 'widget lego template(snackbar)') {
+    result = await _createWidgetLegoTemplateSnackBar();
   }
 
   // if (type == 'module template') {
@@ -119,7 +139,29 @@ Future<CreationResult?> _createLegoTemplate() async {
 Future<CreationResult?> _createWidgetLegoTemplate() async {
   String? name = await _getName('widget lego plugin');
   if (name == null) return null; // Operation was cancelled.
+
   return CreationResult()..Type = ProjectTypeEnum.WidgetLegoTemplate..Name = name;
+  // return CreationResult()..Type = ProjectTypeEnum.ModuleTemplate..Name = name;
+}
+
+Future<CreationResult?> _createWidgetLegoTemplateBottomSheet() async {
+  String? name = await _getName('widget lego plugin');
+  if (name == null) return null; // Operation was cancelled.
+  return CreationResult()..Type = ProjectTypeEnum.WidgetLegoTemplateBottomSheet..Name = name;
+  // return CreationResult()..Type = ProjectTypeEnum.ModuleTemplate..Name = name;
+}
+
+Future<CreationResult?> _createWidgetLegoTemplateDialog() async {
+  String? name = await _getName('widget lego plugin');
+  if (name == null) return null; // Operation was cancelled.
+  return CreationResult()..Type = ProjectTypeEnum.WidgetLegoTemplateDialog..Name = name;
+  // return CreationResult()..Type = ProjectTypeEnum.ModuleTemplate..Name = name;
+}
+
+Future<CreationResult?> _createWidgetLegoTemplateSnackBar() async {
+  String? name = await _getName('widget lego plugin');
+  if (name == null) return null; // Operation was cancelled.
+  return CreationResult()..Type = ProjectTypeEnum.WidgetLegoTemplateSnackBar..Name = name;
   // return CreationResult()..Type = ProjectTypeEnum.ModuleTemplate..Name = name;
 }
 

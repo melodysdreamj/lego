@@ -38,7 +38,23 @@ createApp() async {
         'https://github.com/melodysdreamj/lego.git',
         'pure_widget_lego_template',
         result.Name);
+  } else if (result.Type == ProjectTypeEnum.WidgetLegoTemplateBottomSheet) {
+    successClone = await cloneAndRemoveGit(
+        'https://github.com/melodysdreamj/lego.git',
+        'pure_widget_lego_template(bottom_sheet)',
+        result.Name);
+  } else if (result.Type == ProjectTypeEnum.WidgetLegoTemplateDialog) {
+    successClone = await cloneAndRemoveGit(
+        'https://github.com/melodysdreamj/lego.git',
+        'pure_widget_lego_template(dialog)',
+        result.Name);
+  } else if (result.Type == ProjectTypeEnum.WidgetLegoTemplateSnackBar) {
+    successClone = await cloneAndRemoveGit(
+        'https://github.com/melodysdreamj/lego.git',
+        'pure_widget_lego_template(snackbar)',
+        result.Name);
   }
+
   // else if (result.Type == ProjectTypeEnum.Skeleton) {
   //   successClone =
   //       await cloneAndRemoveGit('https://github.com/melodysdreamj/lego.git', 'skeleton_project', result.Name);
