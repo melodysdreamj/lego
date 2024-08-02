@@ -11,7 +11,7 @@
     ```bash
     flutter pub global activate lego_cli
     ```
-   * If this is your first time using `pub global`, Please refer to the [documentation](https://dart.dev/tools/pub/cmd/pub-global) for more information.
+   * If this is your first time using `pub global`, Please refer to the [documentation](https://doc.junestory.com/etc/install-pub-global) for more information.
 
 
 2. To add Lego to your project, enter the following command in the terminal at the root of your project:
