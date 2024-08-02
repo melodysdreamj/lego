@@ -11,7 +11,8 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
 
     print('1. New Project(default)');
     print('2. New Lego Plugin');
-    print('3. New Widget Lego Plugin');
+    print('3-1. New Widget Lego Plugin(Page)');
+    print('3-2. New Widget Lego Plugin(Widget)');
     String? typeSelection = await readLine();
     if (typeSelection?.toLowerCase() == 'cancel') {
       print('Operation cancelled.');
