@@ -2,7 +2,8 @@
 
 ## etc
 
-* [Install Pub Global](README.md)
+* [Install lego\_cli](README.md)
+* [Install Pub Global](etc/install-pub-global.md)
 * [Environment](etc/environment.md)
 
 ## Widgetbook
