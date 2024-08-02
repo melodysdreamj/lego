@@ -8,4 +8,4 @@
 
 ## Widgetbook
 
-* [Create Widget](widgetbook/create-widget.md)
+* [Create New Widget](widgetbook/create-new-widget.md)
