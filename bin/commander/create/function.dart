@@ -130,7 +130,10 @@ createApp() async {
         path.join(result.Name, 'README.md'), 'NewLego', result.Name);
     // await replaceStringInFile(path.join(result.Name, 'pubspec.yaml'),
     //     'assets/lego/_new/', 'assets/view/${result.Name}/');
-  } else if (result.Type == ProjectTypeEnum.WidgetLegoTemplate) {
+  } else if (result.Type == ProjectTypeEnum.WidgetLegoTemplate ||
+      result.Type == ProjectTypeEnum.WidgetLegoTemplateBottomSheet ||
+      result.Type == ProjectTypeEnum.WidgetLegoTemplateDialog ||
+      result.Type == ProjectTypeEnum.WidgetLegoTemplateSnackBar) {
     await renameNewFolders(
         path.join(result.Name, 'assets', 'lego'), result.Name);
 
