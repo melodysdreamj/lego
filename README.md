@@ -56,7 +56,7 @@ some widget legos are available to view on [widgetbook](https://widgetbook.junes
 ## Simple Architecture Lego
 simple architecture under lego framework.
 
-![](https://github.com/melodysdreamj/simple_architecture_lego/assets/21379657/03667106-144f-4720-966c-838f4323e0b6)
+![](https://github.com/user-attachments/assets/a278586a-6d8f-416a-b30a-83d166695fbf)
 
 ### Structure
 ```bash
