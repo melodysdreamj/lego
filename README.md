@@ -4,16 +4,10 @@
 [![](https://img.shields.io/badge/KakaoTalk-Join%20Room-FEE500?style=for-the-badge&logo=kakao)](https://open.kakao.com/o/gEwrffbg)
 
 # Lego
-A Framework with Sharing Flutter Module and View
+A Cli tool for sharing flutter widgets and code snippets.
 
-### Get Started
-Follow [the guide](https://lego.junestory.com/) to get started.
-
-### Architecture Lego
-
-| Lego                        | Version                                                                                                               |
-|--------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| simple_architecture_lego | [![GitHub](https://img.shields.io/badge/GitHub-Open-blue)](https://github.com/melodysdreamj/simple_architecture_lego) |
+### Widget Legos
+some widget legos are available to view on [widgetbook](https://widgetbook.junestory.com/)
 
 ### Initial Legos
 
@@ -50,14 +44,74 @@ Follow [the guide](https://lego.junestory.com/) to get started.
 | step_counter_lego          | [![step_counter_lego](https://img.shields.io/pub/v/step_counter_lego.svg)](https://pub.dev/packages/step_counter_lego)          |
 | add_widgetbook_page_lego   | [![add_widgetbook_page_lego](https://img.shields.io/pub/v/add_widgetbook_page_lego.svg)](https://pub.dev/packages/add_widgetbook_page_lego)   |
 
-### View Legos
-you can look many widget lego [here](https://widgetbook.junestory.com/) 
 
-### Usage Snippet
-| Name | Gist |
-|------|-----|
-| flutter linkpeek pub usage | [![linkpeek_gist](https://img.shields.io/badge/Open-Gist-007bff?style=flat-square&logo=github)](https://gist.github.com/melodysdreamj/46495777be21281688030b3a4582fc67) |
-| html parse to object.dart | [![html_parse_gist](https://img.shields.io/badge/Open-Gist-007bff?style=flat-square&logo=github)](https://gist.github.com/melodysdreamj/5bd974a6647eb084595780301265729d) |
+
+## Simple Architecture Lego
+simple architecture under lego framework.
+
+![](https://github.com/melodysdreamj/simple_architecture_lego/assets/21379657/03667106-144f-4720-966c-838f4323e0b6)
+
+### Structure
+```bash
+app
+├── backend
+│   ├── app_storage
+│   ├── deeplink
+│   ├── fcm
+│   ├── firestore
+│   ├── sqflite
+│   ├── notification
+│   └── ...
+├── frontend
+│   ├── listener
+│   │   ├── battery
+│   │   ├── connectivity
+│   │   ├── location
+│   │   └── ...
+│   ├── view
+│   │   ├── page
+│   │   ├── component
+│   │   ├── bottom_sheet
+│   │   └── ...
+│   └── view_model
+└── usecase
+    └── ...
+```
+
+### Simple Architecture Legos
+
+| Package                    | Type             | Platform          | Version                                                                                           |
+|----------------------------|------------------|-------------------|---------------------------------------------------------------------------------------------------|
+| sa_data_class_lego            | backend          | all               | [![pub package](https://img.shields.io/pub/v/sa_data_class_lego.svg)](https://pub.dartlang.org/packages/sa_data_class_lego) |
+| sa_enum_lego                  | backend          | all               | [![pub package](https://img.shields.io/pub/v/sa_enum_lego.svg)](https://pub.dartlang.org/packages/sa_enum_lego) |
+| sa_sqflite_lego               | backend          | mobile,desktop    | [![pub package](https://img.shields.io/pub/v/sa_sqflite_lego.svg)](https://pub.dartlang.org/packages/sa_sqflite_lego) |
+| sa_firestore_lego             | backend          | mobile,desktop    | [![pub package](https://img.shields.io/pub/v/sa_firestore_lego.svg)](https://pub.dartlang.org/packages/sa_firestore_lego) |
+| sa_orange_lego                | backend          | all               | [![pub package](https://img.shields.io/pub/v/sa_orange_lego.svg)](https://pub.dartlang.org/packages/sa_orange_lego) |
+| sa_shared_preference_lego      | backend          | mobile,desktop,web | [![pub package](https://img.shields.io/pub/v/sa_shared_preference_lego.svg)](https://pub.dartlang.org/packages/sa_shared_preference_lego) |
+| sa_flutter_secure_storage_lego | backend          | mobile,desktop,web | [![pub package](https://img.shields.io/pub/v/sa_flutter_secure_storage_lego.svg)](https://pub.dartlang.org/packages/sa_flutter_secure_storage_lego) |
+| package_info_plus_lego        | backend          | mobile,desktop,web | [![pub package](https://img.shields.io/pub/v/package_info_plus_lego.svg)](https://pub.dartlang.org/packages/package_info_plus_lego) |
+| sa_app_storage_lego   | backend          | mobile,desktop,web | [![pub package](https://img.shields.io/pub/v/sa_app_storage_lego.svg)](https://pub.dartlang.org/packages/sa_app_storage_lego) |
+| sa_firebase_storage_lego | backend          | mobile,desktop,web | [![pub package](https://img.shields.io/pub/v/sa_firebase_storage_lego.svg)](https://pub.dartlang.org/packages/sa_firebase_storage_lego) |
+| sa_google_mlkit_translate_lego | backend          | mobile | [![pub package](https://img.shields.io/pub/v/sa_google_mlkit_translate_lego.svg)](https://pub.dartlang.org/packages/sa_google_mlkit_translate_lego) |
+| sa_deeplink_lego      | backend,frontend | mobile,desktop    | [![pub package](https://img.shields.io/pub/v/sa_deeplink_lego.svg)](https://pub.dartlang.org/packages/sa_deeplink_lego) |
+| sa_firebase_auth_lego | backend          | mobile,desktop    | [![pub package](https://img.shields.io/pub/v/sa_firebase_auth_lego.svg)](https://pub.dartlang.org/packages/sa_firebase_auth_lego) |
+| sa_firebase_messaging_lego | backend          | mobile,desktop    | [![pub package](https://img.shields.io/pub/v/sa_firebase_messaging_lego.svg)](https://pub.dartlang.org/packages/sa_firebase_messaging_lego) |
+| sa_lego_cloud_functions_lego | backend          | mobile,desktop    | [![pub package](https://img.shields.io/pub/v/sa_lego_cloud_functions_lego.svg)](https://pub.dartlang.org/packages/sa_lego_cloud_functions_lego) |
+| sa_listener_lego               | frontend  | all               | [![pub package](https://img.shields.io/pub/v/sa_listener_lego.svg)](https://pub.dartlang.org/packages/sa_listener_lego) |
+| sa_fgbg_listener_lego          | frontend  | mobile            | [![pub package](https://img.shields.io/pub/v/sa_fgbg_listener_lego.svg)](https://pub.dartlang.org/packages/sa_fgbg_listener_lego) |
+| sa_battery_plus_listener_lego  | frontend  | all            | [![pub package](https://img.shields.io/pub/v/sa_battery_plus_listener_lego.svg)](https://pub.dartlang.org/packages/sa_battery_plus_listener_lego) |
+| sa_app_links_listener_lego     | frontend  | all            | [![pub package](https://img.shields.io/pub/v/sa_app_links_listener_lego.svg)](https://pub.dartlang.org/packages/sa_app_links_listener_lego) |
+| june_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/june_lego.svg)](https://pub.dartlang.org/packages/june_lego) |
+| sa_june_util_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/sa_june_util_lego.svg)](https://pub.dartlang.org/packages/sa_june_util_lego) |
+| easy_localization_csv_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/easy_localization_csv_lego.svg)](https://pub.dartlang.org/packages/easy_localization_csv_lego) |
+
+
+
+
+
+
+
+
 
 
 
