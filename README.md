@@ -11,7 +11,7 @@ A Cli tool for sharing flutter widgets and code snippets.
 dart pub global activate lego_cli
 lego create
 ```
-- find more information on [lego](https://doc.junestory.com/)
+- find more information on [document](https://doc.junestory.com/)
 
 ### Widget Legos
 some widget legos are available to view on [widgetbook](https://widgetbook.junestory.com/)
