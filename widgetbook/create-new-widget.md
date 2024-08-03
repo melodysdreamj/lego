@@ -1,6 +1,6 @@
 # Create New Widget
 
-1. install lego CLI by this [guide](https://doc.junestory.com/widgetbook/install-cli)
+1. install lego CLI by this [guide](../)
 2.  create new widget template
 
     1. run the following command in the terminal:
