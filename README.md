@@ -18,7 +18,7 @@
    ```bash
    lego add NewLego
    ```
-3. run the following command to generate the widget: 
+3. run the following command to run the widget: 
     ```bash
     flutter run -d chrome lib/widget_book/NewLego/_/_.dart
     ```
