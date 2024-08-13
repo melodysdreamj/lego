@@ -1,0 +1,37 @@
+name: lego
+description: "lego is all you need"
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/lego
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: #@add
+  gap: #@add
+  june_flow_util: #@add
+  styled_widget: #@add
+  modal_bottom_sheet: #@add
+  flutter_zoom_drawer: #@add
+  flutter_screenutil: #@add
+  bot_toast: #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  screenutil_lego: #@add
+  bot_toast_lego: #@add
+  widget_binding_lego: #@add
+
+flutter:
+  assets:
+    - assets/lego/_new/
+  uses-material-design: true
+
+topics:
+  - lego
