@@ -1,8 +1,8 @@
-## lego Dual License
+## GitHub Source Code Dual License
 
 ### 1. MIT License
 
-The general use, development, modification, and distribution of lego is permitted under the MIT License, as outlined below:
+The general use, development, modification, and distribution of the GitHub source code is permitted under the MIT License, as outlined below:
 
 "MIT License
 
@@ -26,20 +26,23 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE."
 
-### 2. Custom License for Content Creation and Online Publishing
+### 2. Custom License for Content Creation and Publishing
 
-If video content that includes or utilizes lego is created and intended for online publication, the following custom license terms apply:
+If any content (including but not limited to blog posts, YouTube videos, articles, etc.) that includes or utilizes the GitHub source code is created and intended for publication or sharing, the following custom license terms apply:
 
 #### 2.1 Content Creation and Publishing Permission
-To publish video content that includes or utilizes this software online, prior permission is required. Permission can be requested through [this Google Form](https://forms.gle/Lpm4USV2ur6Bm3aLA), and the request should include the following information:
-- **Link to the online platform where the video will be published** (e.g., YouTube, Vimeo, personal website, etc.)
-- **Description of how the software will be used in the video**
+To create or publish any content that includes or utilizes this source code, prior permission must be obtained from the original author. Upon approval, the recipient's name and permission details will be listed in a public record to indicate authorized use.
 
-#### 2.2 Restrictions
-Publishing video content that includes or utilizes this software online without prior permission is prohibited.
+#### 2.2 Permission Record
+Once permission is granted, the authorized user will be added to the list below, indicating that they have received permission to create or publish content using the source code:
 
-#### 2.3 Exceptions for General Use
-The general use of this software (e.g., development, modification, distribution) is governed by the MIT License as outlined in section 1.
+**Authorized Users List:**
+- https://pub.dev
 
-### 3. Contact Information
-For license-related inquiries, please contact melodysdreamjune@gmail.com.
+This list will be maintained to publicly display who has been granted permission to use the source code in their content.
+
+#### 2.3 Restrictions
+Creating or publishing content that includes or utilizes this source code without prior permission and without being listed in the public record is strictly prohibited.
+
+#### 2.4 Exceptions for General Use
+The general use of this source code (e.g., development, modification, distribution) is governed by the MIT License as outlined in section 1.
