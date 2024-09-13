@@ -11,7 +11,7 @@ lego create
 - find more information on [document](https://doc.junestory.com/)
 
 ### Widget Legos
-some widget legos are available to view on [widgetbook](https://widgetbook.junestory.com/)
+some widget legos are available to view on [uihub](https://www.youtube.com/@FreeFlutterUIHub/shorts)
 
 ### Initial Legos
 
