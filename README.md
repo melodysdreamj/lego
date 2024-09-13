@@ -108,7 +108,7 @@ app
 | june_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/june_lego.svg)](https://pub.dartlang.org/packages/june_lego) |
 | sa_june_util_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/sa_june_util_lego.svg)](https://pub.dartlang.org/packages/sa_june_util_lego) |
 | easy_localization_csv_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/easy_localization_csv_lego.svg)](https://pub.dartlang.org/packages/easy_localization_csv_lego) |
-
+| sa_new_view_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/sa_new_view_lego.svg)](https://pub.dartlang.org/packages/sa_new_view_lego) |
 
 
 
