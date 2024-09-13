@@ -11,10 +11,10 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
 
     print('1. New Project(default)');
     print('2. New Lego Plugin');
-    print('3. New Widget Lego Plugin(View)');
-    print('4. New Widget Lego Plugin(BottomSheet)');
-    print('5. New Widget Lego Plugin(Dialog)');
-    print('6. New Widget Lego Plugin(SnackBar)');
+    // print('3. New Widget Lego Plugin(View)');
+    // print('4. New Widget Lego Plugin(BottomSheet)');
+    // print('5. New Widget Lego Plugin(Dialog)');
+    // print('6. New Widget Lego Plugin(SnackBar)');
     String? typeSelection = await readLine();
     if (typeSelection?.toLowerCase() == 'cancel') {
       print('Operation cancelled.');
@@ -28,21 +28,21 @@ Future<CreationResult?> askUserInputForProjectCreation() async {
         type = 'lego template';
         break;
 
-      case '3':
-        type = 'widget lego template';
-        break;
-
-      case '4':
-        type = 'widget lego template(bottomsheet)';
-        break;
-
-      case '5':
-        type = 'widget lego template(dialog)';
-        break;
-
-      case '6':
-        type = 'widget lego template(snackbar)';
-        break;
+      // case '3':
+      //   type = 'widget lego template';
+      //   break;
+      //
+      // case '4':
+      //   type = 'widget lego template(bottomsheet)';
+      //   break;
+      //
+      // case '5':
+      //   type = 'widget lego template(dialog)';
+      //   break;
+      //
+      // case '6':
+      //   type = 'widget lego template(snackbar)';
+      //   break;
 
       case '':
         print('Default selection [1. StarterKit Project] is used.');
