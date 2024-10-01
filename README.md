@@ -47,7 +47,7 @@ some widget legos are available to view on [uihub](https://www.youtube.com/@Free
 | csv_localizations_lego     | [![csv_localizations_lego](https://img.shields.io/pub/v/csv_localizations_lego.svg)](https://pub.dev/packages/csv_localizations_lego)     |
 | step_counter_lego          | [![step_counter_lego](https://img.shields.io/pub/v/step_counter_lego.svg)](https://pub.dev/packages/step_counter_lego)          |
 | add_widgetbook_page_lego   | [![add_widgetbook_page_lego](https://img.shields.io/pub/v/add_widgetbook_page_lego.svg)](https://pub.dev/packages/add_widgetbook_page_lego)   |
-
+| theme_mode_changer_lego    | [![theme_mode_changer_lego](https://img.shields.io/pub/v/theme_mode_changer_lego.svg)](https://pub.dev/packages/theme_mode_changer_lego)    |
 
 
 ## Simple Architecture Lego
