@@ -110,7 +110,7 @@ app
 | easy_localization_csv_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/easy_localization_csv_lego.svg)](https://pub.dartlang.org/packages/easy_localization_csv_lego) |
 | sa_new_view_lego | frontend  | all               | [![pub package](https://img.shields.io/pub/v/sa_new_view_lego.svg)](https://pub.dartlang.org/packages/sa_new_view_lego) |
 | sa_usecase_template_lego | usecase  | all               | [![pub package](https://img.shields.io/pub/v/sa_usecase_template_lego.svg)](https://pub.dartlang.org/packages/sa_usecase_template_lego) |
-
+| sa_vertexai_gemini_lego | backend  | all               | [![pub package](https://img.shields.io/pub/v/sa_vertexai_gemini_lego.svg)](https://pub.dartlang.org/packages/sa_vertexai_gemini_lego) |
 
 
 
